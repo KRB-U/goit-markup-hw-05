@@ -759,7 +759,7 @@ img {
 }
 
 .social-block {
-  /* display: flex; */
+  display: flex;
   align-items: baseline;
 }
 
