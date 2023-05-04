@@ -799,7 +799,14 @@ img {
   border-radius: 50%;
   background-color: var(--dairy-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--cornflower-color);
 }
+
+.modal-close-btn:is(:hover, :focus) {
+  background-color: var(--ocean-button-color);
+  fill: #FFFFFF;
+}
+
 .modal-close-icon {
-  fill: var(--navy-blue-color);
+
 }
