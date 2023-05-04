@@ -718,13 +718,13 @@ img {
 }
 
 .text-card-portfolio {
-  color: var(--cloud-background-color);
-
-  /* background-size: cover; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
   padding: 40px 32px;
+
+  color: var(--cloud-background-color);
 }
 
 .social-media {
