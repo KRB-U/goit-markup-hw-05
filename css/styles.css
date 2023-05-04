@@ -26,7 +26,7 @@
   --hero-background-color: #2e2f42;
   /* White background > Header,  team card background */
   --white-color: #ffffff;
-  /* Modal background  */
+  /* Modal background  */0
   --dairy-color: #fcfcfc;
 }
 
@@ -126,6 +126,7 @@ img {
 
 /* розташування в рядок хедера */
 .nav-menu {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 76px;
@@ -255,6 +256,21 @@ img {
   padding: 24px 0;
 }
 
+.header-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: block;
+  width: 100%;
+  height: 4px;
+
+  border-radius: 2px;
+  background-color: var(--ocean-button-color);
+  bottom: -1px;
+}
+
 .but-list {
   font-style: normal;
   font-size: 16px;
@@ -294,6 +310,8 @@ img {
 
 /* header */
 .top-header {
+  /* position: relative; */
+
   font-style: normal;
   letter-spacing: 0.02em;
   font-style: normal;
