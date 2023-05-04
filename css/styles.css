@@ -126,7 +126,7 @@ img {
 
 /* розташування в рядок хедера */
 .nav-menu {
-  position: relative;
+
   display: flex;
   flex-wrap: wrap;
   gap: 76px;
@@ -249,6 +249,7 @@ img {
 }
 
 .menu-link {
+  position: relative;
   font-size: 16px;
   line-height: 1.5;
   color: var(--navy-blue-color);
@@ -267,12 +268,12 @@ img {
   height: 4px;
 
   border-radius: 2px;
-
+  background-color: var(--ocean-button-color);
   bottom: -1px;
 }
 
 .header-nav-link.active::after {
-  background-color: var(--ocean-button-color);
+
 }
 
 .but-list {
