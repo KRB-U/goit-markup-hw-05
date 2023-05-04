@@ -642,7 +642,7 @@ img {
 }
 
 .link-examples-work {
-  position: relative;
+  /* position: relative; */
   display: block;
 }
 
