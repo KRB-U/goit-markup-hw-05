@@ -641,7 +641,7 @@ img {
   flex-basis: calc((100% - 24px * 2) / 3);
 }
 
-.link-examples-work:hover .overlay-card-portfolio, 
+.link-examples-work:hover .overlay-card-portfolio,
 .link-examples-work:focus .overlay-card-portfolio {
   transform: translate(0, 0);
 }
