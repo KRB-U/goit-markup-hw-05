@@ -26,7 +26,7 @@
   --hero-background-color: #2e2f42;
   /* White background > Header,  team card background */
   --white-color: #ffffff;
-  /* Modal background  */0
+  /* Modal background  */
   --dairy-color: #fcfcfc;
 }
 
@@ -126,7 +126,6 @@ img {
 
 /* розташування в рядок хедера */
 .nav-menu {
-
   display: flex;
   flex-wrap: wrap;
   gap: 76px;
@@ -258,7 +257,7 @@ img {
 }
 
 .header-nav-link::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -268,12 +267,12 @@ img {
   height: 4px;
 
   border-radius: 2px;
-  background-color: var(--ocean-button-color);
+
   bottom: -1px;
 }
 
 .header-nav-link.active::after {
-
+  background-color: var(--ocean-button-color);
 }
 
 .but-list {
@@ -748,4 +747,44 @@ img {
 .social-block {
   /* display: flex; */
   align-items: baseline;
+}
+
+/* ========================================= Modal window====================*/
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
+.modal {
+  position: absolute;
+  top: calc(50%-204px);
+  left: calc(50%-292px);
+
+  width: 408px;
+  height: 584px;
+  background-color: var(--dairy-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.modal-close-btn {
+  position: absolute;
+
+  width: 24px;
+  height: 24px;
+  /* left: 0;
+right: 0; */
+
+  top: 0;
+  bottom: 0;
+
+  background-color: var(--dairy-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.modal-close-icon {
 }
