@@ -275,6 +275,10 @@ img {
   background-color: var(--ocean-button-color);
 }
 
+.header-nav-link.active {
+  color: var(--ocean-button-color);
+}
+
 .but-list {
   font-style: normal;
   font-size: 16px;
@@ -773,8 +777,8 @@ img {
 
 .modal {
   position: absolute;
-  top: calc(50%-204px);
-  left: calc(50%-292px);
+  top: calc(50% - 204px);
+  left: calc(50% - 292px);
 
   width: 408px;
   height: 584px;
@@ -783,6 +787,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+
 .modal-close-btn {
   position: absolute;
   top: 24px;
@@ -804,9 +809,9 @@ img {
 
 .modal-close-btn:is(:hover, :focus) {
   background-color: var(--ocean-button-color);
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .modal-close-icon {
-
+  /* півпровап */
 }
