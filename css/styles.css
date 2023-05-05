@@ -782,7 +782,7 @@ img {
 
 /* =========================================Modal window====================*/
 .backdrop {
-  display: none;
+  /* display: none; */
   position: fixed;
   top: 0;
   left: 0;
@@ -796,7 +796,7 @@ img {
 
 .backdrop.is-hidden {
   opacity: 0;
-  /* visibility: hidden; */
+  visibility: hidden;
   pointer-events: none;
 }
 
