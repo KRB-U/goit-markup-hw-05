@@ -289,6 +289,10 @@ img {
   gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-pc {
@@ -688,12 +692,12 @@ img {
 
   min-width: 126px;
 
-  transition-property: color, background-color;
-  /* transition-property: background-color; */
+  /* transition-property: color, background-color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
@@ -776,12 +780,11 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris-button-color);
-
 }
 .social-list-footer-link:is(:hover, :focus) {
   background-color: var(--green-color);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-block {
