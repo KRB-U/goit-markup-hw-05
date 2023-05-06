@@ -506,6 +506,8 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris-button-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .social-list-link:is(:hover, :focus) {
@@ -617,6 +619,7 @@ img {
   width: 168px;
   height: 88px;
   color: var(--light-slate-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-list-link:is(:hover, :focus) {
@@ -772,6 +775,7 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris-button-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 .social-list-footer-link:is(:hover, :focus) {
