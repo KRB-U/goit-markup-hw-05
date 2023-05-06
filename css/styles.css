@@ -663,6 +663,7 @@ img {
 .link-examples-work {
   /* position: relative; */
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-examples-work:is(:hover, :focus) {
@@ -708,7 +709,7 @@ img {
   background-color: var(--ocean-button-color);
 
   border: 1px solid transparent;
-  transform: translateY(0%);
+
 }
 
 .employees-card-portfolio-wrapper {
