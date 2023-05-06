@@ -269,13 +269,11 @@ img {
   height: 4px;
 
   color: var(--ocean-button-color);
-  background-color: var(--ocean-button-color);
+  /* background-color: var(--ocean-button-color); */
   border-radius: 2px;
 
   bottom: -1px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
 }
 
 .header-nav-link.active::after {
