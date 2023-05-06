@@ -274,7 +274,7 @@ img {
   height: 4px;
 
   color: var(--ocean-button-color);
-
+  /* background-color: var(--ocean-button-color); */
   border-radius: 2px;
 
   bottom: -1px;
