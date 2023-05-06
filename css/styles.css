@@ -254,6 +254,7 @@ img {
   color: var(--navy-blue-color);
   letter-spacing: 0.02em;
   padding: 24px 0;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-link::after {
@@ -771,6 +772,7 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris-button-color);
+  
 }
 .social-list-footer-link:is(:hover, :focus) {
   background-color: var(--green-color);
@@ -816,6 +818,7 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  transition: opacity 400ms ease-in, transform 400ms ease-in;
 }
 
 .modal-close-btn {
