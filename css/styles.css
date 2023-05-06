@@ -657,7 +657,8 @@ img {
 
 .link-examples-work:hover .text-card-portfolio,
 .link-examples-work:focus .text-card-portfolio {
-  transform: translate(0, 0);
+  /* transform: translate(0, 0); */
+  transform: translateY(0%);
 }
 
 .link-examples-work {
