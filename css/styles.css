@@ -266,7 +266,7 @@ img {
   color: var(--ocean-button-color);
 }
 
-.active::after {
+.menu-link.active::after {
   content: "";
   position: absolute;
   bottom: 0;
